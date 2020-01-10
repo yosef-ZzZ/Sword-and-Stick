@@ -6,6 +6,10 @@ public class Enemy : MonoBehaviour
 {
     public int damagetoplayer = 1;
 
+     void Update()
+    {
+    }
+
     // This fucntion checks what the enemy collided with and deals damage if it is the player
    void OnTriggerEnter2D(Collider2D damageCollider) {
        // This checks if the collider touched a player
