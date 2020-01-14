@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float timeBtwAttack;
-    public float startTimeBtwAttack;
+    private float timeBtwAttack;             // Times the time between attacks
+    public float startTimeBtwAttack;         // Set time between attacks
 
-    public Transform attackPos;
-    public LayerMask whatIsEnemies;
-    public Animator playerAnim;
-    public float attackRange;
-    public int damage;
+    public Transform attackPos;              // Get attack gameObject
+    public LayerMask whatIsEnemies;          // Define the enemy layer
+    public Animator playerAnim;              // Get player animator
+
+    public float attackRange;                // Set attaacking range
+    public int damage;                       // Set damage
 
     // Update is called once per frame
     void Update()
