@@ -5,9 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int damagetoplayer = 1;
+    public int EnemyHealth;
 
      void Update()
     {
+        if (EnemyHealth <= 0){
+            Destroy(gameObject);
+        }
     }
 
     // This fucntion checks what the enemy collided with and deals damage if it is the player
@@ -19,5 +23,11 @@ public class Enemy : MonoBehaviour
 
            Debug.Log(damageCollider.GetComponent<PlayerHealth>().health);
        }
+   }
+
+   // This function gets called every time the enemy gets hit
+   public void TakeDamage(int damage){
+       EnemyHealth -= damage;
+       Debug.Log("damage Taken, health " + EnemyHealth);
    }
 }
