@@ -11,7 +11,8 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask whatIsEnemies;          // Define the enemy layer
     public Animator playerAnim;              // Get player animator
 
-    public float attackRange;                // Set attaacking range
+    public float attackRangeX;               // Set attacking range on the X-axis
+    public float attackRangeY;               // Set attacking range on the Y-axis
     public int damage;                       // Set damage
 
     // Update is called once per frame
@@ -20,8 +21,10 @@ public class PlayerAttack : MonoBehaviour
         if (timeBtwAttack <= 0){
             // Attack is allowed
             if (Input.GetButtonDown("Attack")){
+                playerAnim.SetBool("StopAttack", false);
                 playerAnim.SetTrigger("attack");
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                playerAnim.SetBool("StopAttack", true);
+                Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++) {
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                 }
@@ -35,6 +38,6 @@ public class PlayerAttack : MonoBehaviour
 
     void OnDrawGizmosSelected() {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPos.position, attackRange);
+        Gizmos.DrawWireCube(attackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
     }
 }
