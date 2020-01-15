@@ -6998,7 +6998,7 @@ Transform:
   m_LocalScale: {x: 10.656, y: 11.56, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067542456
 GameObject:
@@ -11098,6 +11098,7 @@ MonoBehaviour:
   damagetoplayer: 50
   EnemyHealth: 100
   startDazedTime: 0.8
+  StartTimeBtwAttack: 0
 --- !u!114 &1765230732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13445,6 +13446,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2796136865354499561, guid: 003dd877fa5189441b66c904f525c17a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.032
+      objectReference: {fileID: 0}
     - target: {fileID: 2796136865456359108, guid: 003dd877fa5189441b66c904f525c17a,
         type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -13514,16 +13520,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 0.19298759
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796136865456359111, guid: 003dd877fa5189441b66c904f525c17a,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0042546466
-      objectReference: {fileID: 0}
-    - target: {fileID: 2796136865456359111, guid: 003dd877fa5189441b66c904f525c17a,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.19410788
       objectReference: {fileID: 0}
     - target: {fileID: 2796136865456359114, guid: 003dd877fa5189441b66c904f525c17a,
         type: 3}
