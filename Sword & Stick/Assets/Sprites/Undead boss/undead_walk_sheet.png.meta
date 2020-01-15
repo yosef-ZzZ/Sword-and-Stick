@@ -151,10 +151,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 8
-        width: 31
-        height: 39
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,10 +172,10 @@ TextureImporter:
         serializedVersion: 2
         x: 58
         y: 8
-        width: 34
-        height: 39
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,10 +193,10 @@ TextureImporter:
         serializedVersion: 2
         x: 113
         y: 8
-        width: 35
-        height: 39
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,11 +213,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 175
-        y: 8
-        width: 29
-        height: 39
+        y: 9
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: undead_walk_sheet_4
       rect:
         serializedVersion: 2
-        x: 231
-        y: 8
-        width: 29
-        height: 40
+        x: 230
+        y: 7
+        width: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,9 +257,9 @@ TextureImporter:
         x: 286
         y: 8
         width: 30
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
@@ -278,9 +278,9 @@ TextureImporter:
         x: 341
         y: 8
         width: 31
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,9 +299,9 @@ TextureImporter:
         x: 395
         y: 8
         width: 33
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,9 +320,9 @@ TextureImporter:
         x: 449
         y: 8
         width: 34
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -338,12 +338,12 @@ TextureImporter:
       name: undead_walk_sheet_9
       rect:
         serializedVersion: 2
-        x: 510
+        x: 509
         y: 8
         width: 30
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,9 +362,9 @@ TextureImporter:
         x: 565
         y: 8
         width: 31
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,9 +383,9 @@ TextureImporter:
         x: 620
         y: 8
         width: 32
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,9 +404,9 @@ TextureImporter:
         x: 675
         y: 8
         width: 33
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -422,12 +422,12 @@ TextureImporter:
       name: undead_walk_sheet_13
       rect:
         serializedVersion: 2
-        x: 734
-        y: 8
+        x: 733
+        y: 9
         width: 30
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,9 +446,9 @@ TextureImporter:
         x: 788
         y: 8
         width: 32
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,9 +467,9 @@ TextureImporter:
         x: 843
         y: 8
         width: 34
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,9 +488,9 @@ TextureImporter:
         x: 904
         y: 7
         width: 29
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,9 +509,9 @@ TextureImporter:
         x: 957
         y: 8
         width: 31
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,9 +530,9 @@ TextureImporter:
         x: 1011
         y: 8
         width: 33
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,9 +551,9 @@ TextureImporter:
         x: 1066
         y: 8
         width: 34
-        height: 39
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
