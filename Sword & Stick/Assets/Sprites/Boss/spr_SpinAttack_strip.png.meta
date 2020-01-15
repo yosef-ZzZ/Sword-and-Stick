@@ -180,11 +180,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,11 +201,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 233
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,11 +222,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 403
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,11 +243,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 573
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_4
       rect:
         serializedVersion: 2
-        x: 741
-        y: 20
-        width: 49
-        height: 34
+        x: 731
+        y: 0
+        width: 59
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_5
       rect:
         serializedVersion: 2
-        x: 910
-        y: 20
-        width: 49
-        height: 33
+        x: 903
+        y: 0
+        width: 58
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_6
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 20
-        width: 51
-        height: 34
+        x: 1073
+        y: 0
+        width: 61
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_7
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 20
-        width: 54
-        height: 34
+        x: 1242
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_8
       rect:
         serializedVersion: 2
-        x: 1417
-        y: 20
-        width: 56
-        height: 34
+        x: 1409
+        y: 0
+        width: 73
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_9
       rect:
         serializedVersion: 2
-        x: 1594
-        y: 20
-        width: 35
-        height: 41
+        x: 1591
+        y: 0
+        width: 47
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_10
       rect:
         serializedVersion: 2
-        x: 1770
-        y: 20
-        width: 33
-        height: 41
+        x: 1758
+        y: 0
+        width: 53
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_11
       rect:
         serializedVersion: 2
-        x: 1932
-        y: 20
-        width: 48
-        height: 41
+        x: 1926
+        y: 0
+        width: 60
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_12
       rect:
         serializedVersion: 2
-        x: 2111
-        y: 20
-        width: 46
-        height: 39
+        x: 2102
+        y: 0
+        width: 60
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_13
       rect:
         serializedVersion: 2
-        x: 2286
-        y: 20
-        width: 29
-        height: 40
+        x: 2280
+        y: 0
+        width: 46
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_14
       rect:
         serializedVersion: 2
-        x: 2448
-        y: 20
-        width: 55
-        height: 42
+        x: 2441
+        y: 0
+        width: 69
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,12 +494,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_15
       rect:
         serializedVersion: 2
-        x: 2626
-        y: 20
-        width: 50
-        height: 39
+        x: 2612
+        y: 0
+        width: 75
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_16
       rect:
         serializedVersion: 2
-        x: 2800
-        y: 20
-        width: 35
-        height: 41
+        x: 2796
+        y: 0
+        width: 50
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -536,12 +536,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_17
       rect:
         serializedVersion: 2
-        x: 2973
-        y: 20
-        width: 37
-        height: 41
+        x: 2966
+        y: 0
+        width: 52
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,12 +557,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_18
       rect:
         serializedVersion: 2
-        x: 3139
-        y: 20
-        width: 48
-        height: 41
+        x: 3135
+        y: 0
+        width: 55
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_19
       rect:
         serializedVersion: 2
-        x: 3318
-        y: 20
-        width: 46
-        height: 39
+        x: 3308
+        y: 0
+        width: 62
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,12 +599,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_20
       rect:
         serializedVersion: 2
-        x: 3493
-        y: 20
-        width: 29
-        height: 40
+        x: 3489
+        y: 0
+        width: 43
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,12 +620,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_21
       rect:
         serializedVersion: 2
-        x: 3655
-        y: 20
-        width: 55
-        height: 42
+        x: 3651
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,12 +641,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_22
       rect:
         serializedVersion: 2
-        x: 3831
-        y: 20
-        width: 51
-        height: 35
+        x: 3827
+        y: 0
+        width: 59
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,12 +662,12 @@ TextureImporter:
       name: spr_SpinAttack_strip_23
       rect:
         serializedVersion: 2
-        x: 4005
-        y: 20
-        width: 49
-        height: 34
+        x: 3995
+        y: 0
+        width: 59
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -684,11 +684,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4176
-        y: 20
+        y: 0
         width: 35
-        height: 34
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -705,11 +705,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4347
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -726,11 +726,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4517
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -747,11 +747,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4687
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -768,11 +768,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4857
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -789,11 +789,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5027
-        y: 20
+        y: 0
         width: 35
-        height: 35
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

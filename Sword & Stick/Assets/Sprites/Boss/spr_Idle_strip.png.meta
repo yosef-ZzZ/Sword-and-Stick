@@ -50,6 +50,27 @@ TextureImporter:
   - first:
       213: 5025321710924349243
     second: spr_Idle_strip_15
+  - first:
+      213: 3090636739287982697
+    second: spr_Idle_strip_16
+  - first:
+      213: -1889179426214127021
+    second: spr_Idle_strip_17
+  - first:
+      213: 5415005072268231487
+    second: spr_Idle_strip_19
+  - first:
+      213: -1431908109462071260
+    second: spr_Idle_strip_21
+  - first:
+      213: 7814284392781864378
+    second: spr_Idle_strip_23
+  - first:
+      213: 8947582395205109773
+    second: spr_Idle_strip_24
+  - first:
+      213: 2451432717145325314
+    second: spr_Idle_strip_26
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,34 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_Idle_strip_0
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 19
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce054541dad47a24389325a2e1b1c2d6
-      internalID: 9168396658961621293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: spr_Idle_strip_1
       rect:
         serializedVersion: 2
-        x: 232
-        y: 19
-        width: 36
-        height: 37
+        x: 50
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,7 +169,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213c5b256e73ee047bee0a049c49d6f4
+      spriteID: c0afdd52e22d58a469e2b54d263817d6
       internalID: -314029059331799083
       vertices: []
       indices: 
@@ -179,10 +179,10 @@ TextureImporter:
       name: spr_Idle_strip_2
       rect:
         serializedVersion: 2
-        x: 402
-        y: 19
-        width: 36
-        height: 37
+        x: 221
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,29 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59591a485ea2bb94997efcb5daa47fbe
+      spriteID: 07878b10dd3728443b6faf883cf1114e
       internalID: 50084547246263522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Idle_strip_3
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 19
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 473e41e10babc704a81340999de00bc2
-      internalID: -8927325975047059614
       vertices: []
       indices: 
       edges: []
@@ -221,10 +200,10 @@ TextureImporter:
       name: spr_Idle_strip_4
       rect:
         serializedVersion: 2
-        x: 742
-        y: 19
-        width: 36
-        height: 37
+        x: 391
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,29 +211,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 854423c4ecbd0a144876765d7155f8fe
+      spriteID: 6d5f1f9b4fd0adc4b8a8f474de857c96
       internalID: -5897403576546682017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Idle_strip_5
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 19
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d923f16da32c29946b4b792e6cc81dbe
-      internalID: 5467768180949139379
       vertices: []
       indices: 
       edges: []
@@ -263,10 +221,10 @@ TextureImporter:
       name: spr_Idle_strip_6
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 19
-        width: 36
-        height: 38
+        x: 562
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,29 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e778531fda2cb044bc8f9068ca61d6e
+      spriteID: 3fe070963cf98e044a07b825a69a6d3b
       internalID: 6120145019611335709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Idle_strip_7
-      rect:
-        serializedVersion: 2
-        x: 1252
-        y: 19
-        width: 36
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a72ade27d465534f849aa914d5bad83
-      internalID: -4208320113244273313
       vertices: []
       indices: 
       edges: []
@@ -305,10 +242,10 @@ TextureImporter:
       name: spr_Idle_strip_8
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 19
-        width: 36
-        height: 38
+        x: 732
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32048a0703bef4143954f0a8dd7fc9ca
+      spriteID: f098bd7203c9ecc40887ed9cd5fc1a7f
       internalID: -1637692612783327286
       vertices: []
       indices: 
@@ -326,10 +263,10 @@ TextureImporter:
       name: spr_Idle_strip_9
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 19
-        width: 36
-        height: 38
+        x: 901
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,29 +274,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc1002dc83b6be4b9d5b7a08d249bc6
+      spriteID: ff93d785e7896b946880439aa5c1c671
       internalID: 5980455629194962102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Idle_strip_10
-      rect:
-        serializedVersion: 2
-        x: 1762
-        y: 19
-        width: 36
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f22463adc9dbc284db3d09414479b572
-      internalID: -7823000694551588917
       vertices: []
       indices: 
       edges: []
@@ -368,10 +284,10 @@ TextureImporter:
       name: spr_Idle_strip_11
       rect:
         serializedVersion: 2
-        x: 1932
-        y: 19
-        width: 36
-        height: 38
+        x: 1071
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,7 +295,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a3ca5cdaa43fe44c9494da810d93a96
+      spriteID: 33f0c20a66200d64395875db6283742a
       internalID: -4920067686192474687
       vertices: []
       indices: 
@@ -389,10 +305,10 @@ TextureImporter:
       name: spr_Idle_strip_12
       rect:
         serializedVersion: 2
-        x: 2102
-        y: 19
-        width: 36
-        height: 37
+        x: 1241
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,29 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 110da669934d8af4c9b2019c0950aff2
+      spriteID: f31b0215114cf4f4bbb2d1fc181eec14
       internalID: 659905401063497288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_Idle_strip_13
-      rect:
-        serializedVersion: 2
-        x: 2272
-        y: 19
-        width: 38
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42e39f361f7282345b16eb0775d5aae5
-      internalID: -3470545904337852754
       vertices: []
       indices: 
       edges: []
@@ -431,10 +326,10 @@ TextureImporter:
       name: spr_Idle_strip_14
       rect:
         serializedVersion: 2
-        x: 2442
-        y: 19
-        width: 36
-        height: 37
+        x: 1411
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,20 +337,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04866689244d0f840b4bdc766b419025
+      spriteID: 35f549034cc239b43b5ae77a5bde5e51
       internalID: -6277127698302024435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_Idle_strip_15
+      name: spr_Idle_strip_16
       rect:
         serializedVersion: 2
-        x: 2612
-        y: 19
-        width: 36
-        height: 37
+        x: 1581
+        y: 0
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,8 +358,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c89359bf4de08946b40a861c0b294d9
-      internalID: 5025321710924349243
+      spriteID: 9f8b8d351a7b6c840bd3ddd910f4f17a
+      internalID: 3090636739287982697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_17
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e4508f26f10564cad8baae92885484
+      internalID: -1889179426214127021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_19
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d82a1a192612774b9d96bdf94ffd2b6
+      internalID: 5415005072268231487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_21
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778975c4b0f80c840ad58f84d4c2e077
+      internalID: -1431908109462071260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_23
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117ab040fd2f002448eb3335fce15275
+      internalID: 7814284392781864378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_24
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2474d94fb656f9e459c7dabcd1e01957
+      internalID: 8947582395205109773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Idle_strip_26
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89285cef9a53e6f43a8d448303ca961c
+      internalID: 2451432717145325314
       vertices: []
       indices: 
       edges: []
