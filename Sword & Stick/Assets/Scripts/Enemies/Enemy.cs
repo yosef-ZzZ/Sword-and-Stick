@@ -4,14 +4,26 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public Patrol EnemyController;
+    public Animator animator;                // Get Skeleton animator
     public int damagetoplayer = 1;
     public int EnemyHealth;
+
+    private float dazedTime;
+    public float startDazedTime;
 
      void Update()
     {
         if (EnemyHealth <= 0){
-            Destroy(gameObject);
+           animator.SetTrigger("Dead");
         }
+
+        if (dazedTime <= 0){
+            EnemyController.speed = EnemyController.sendAssignedSpeed();
+        } else {
+            EnemyController.speed = 0;
+            dazedTime -= Time.deltaTime;
+        }//else
     }
 
     // This fucntion checks what the enemy collided with and deals damage if it is the player
@@ -27,7 +39,12 @@ public class Enemy : MonoBehaviour
 
    // This function gets called every time the enemy gets hit
    public void TakeDamage(int damage){
+       dazedTime = startDazedTime;
        EnemyHealth -= damage;
        Debug.Log("damage Taken, health " + EnemyHealth);
+   }
+
+   void DestroyEnemy(){
+       Destroy(gameObject);
    }
 }
