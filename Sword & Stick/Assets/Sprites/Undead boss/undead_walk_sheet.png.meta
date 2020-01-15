@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 04a36fab9a821a14c8b5514103df4c94
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 142755465030680856
+    second: undead_walk_sheet_0
+  - first:
+      213: 2922281546914920639
+    second: undead_walk_sheet_1
+  - first:
+      213: 7210790815662025781
+    second: undead_walk_sheet_2
+  - first:
+      213: -3212083524263893832
+    second: undead_walk_sheet_3
+  - first:
+      213: 4243932624663759180
+    second: undead_walk_sheet_4
+  - first:
+      213: -8460330874291415621
+    second: undead_walk_sheet_5
+  - first:
+      213: 1254829084117391030
+    second: undead_walk_sheet_6
+  - first:
+      213: -4342947400257777672
+    second: undead_walk_sheet_7
+  - first:
+      213: -7110228090988999519
+    second: undead_walk_sheet_8
+  - first:
+      213: 8282571027501683870
+    second: undead_walk_sheet_9
+  - first:
+      213: 1037653723446600345
+    second: undead_walk_sheet_10
+  - first:
+      213: 2483570875311810246
+    second: undead_walk_sheet_11
+  - first:
+      213: 2582898011174987956
+    second: undead_walk_sheet_12
+  - first:
+      213: -2868376421552856027
+    second: undead_walk_sheet_13
+  - first:
+      213: 2353748823511112257
+    second: undead_walk_sheet_14
+  - first:
+      213: -760366921400045885
+    second: undead_walk_sheet_15
+  - first:
+      213: -4506028307750403348
+    second: undead_walk_sheet_16
+  - first:
+      213: 3830203427272197561
+    second: undead_walk_sheet_17
+  - first:
+      213: 6471831122680707735
+    second: undead_walk_sheet_18
+  - first:
+      213: -7422337845052584615
+    second: undead_walk_sheet_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +120,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -72,7 +144,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: undead_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b0168be932054f9d338ed4a99fea0
+      internalID: 142755465030680856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3308c2181085d54c80144f459b02844
+      internalID: 2922281546914920639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9551ea3c9749bd439f064bd6a31c29a
+      internalID: 7210790815662025781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 8
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09213df81931d40a63fb712560b1d0
+      internalID: -3212083524263893832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa1e11faefa7d5448e256e3c40bb0f2
+      internalID: 4243932624663759180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 8
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320f9ad1009086c49b27bc31ecc58561
+      internalID: -8460330874291415621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 8
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e76af1b24cdc2478aa11b0183ca049
+      internalID: 1254829084117391030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 8
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae538d470a8a7940b3be8ce87b810d1
+      internalID: -4342947400257777672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 8
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7971d6f7a3094fb43a0fa11db61577c9
+      internalID: -7110228090988999519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b67aa273ed7414b96ebd56d42eb729
+      internalID: 8282571027501683870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 8
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef22c8d38d3b358488ac7d010dbee5ab
+      internalID: 1037653723446600345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 8
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98616ac74aa22c4a95c2df001076404
+      internalID: 2483570875311810246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 8
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5045bb86b6da71c438d33187ca5d94ee
+      internalID: 2582898011174987956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 8
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e042d0287b79c24a9bbd42aeedfb5d3
+      internalID: -2868376421552856027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 8
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f3a89ba5615444a9feb2c3c327a47f
+      internalID: 2353748823511112257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 8
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26840034f42ac9440be628f4f8afb33c
+      internalID: -760366921400045885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 7
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a76681330d934499aaf782e8be0711
+      internalID: -4506028307750403348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 8
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddff3d9721a3134f999a1913886095c
+      internalID: 3830203427272197561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 8
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1492cd180628bb84bb0e1e61c5ae57d4
+      internalID: 6471831122680707735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undead_walk_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 8
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9877934d252944d8ea36696821da1a
+      internalID: -7422337845052584615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
