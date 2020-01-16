@@ -43,11 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06bfcb8a94549f4abec7dc429abd90a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 2800000, guid: 82bf4b366c9ae4e4c98499d16d89599d, type: 3}
-  colorMapping:
-  - color: {r: 0, g: 0, b: 0, a: 1}
-    prefab: {fileID: 7047537152624989056, guid: 532fc9dee31558241a81d15def050e8e,
+  map: {fileID: 2800000, guid: 1a1631406862c354bbb43617056687b3, type: 3}
+  colourMapping:
+  - colour: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 7569507599265812346, guid: 009ca3f64048d824c8e515d80e12569d,
       type: 3}
-  - color: {r: 0, g: 1, b: 0, a: 1}
-    prefab: {fileID: 2844402549624384075, guid: 1d44c1dfa8e917943a526aa161981fe1,
+  - colour: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 2796136865456359114, guid: 003dd877fa5189441b66c904f525c17a,
       type: 3}
