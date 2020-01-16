@@ -127,6 +127,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: map
+      value: 
+      objectReference: {fileID: 2800000, guid: 9c36b131330556141acd805ffe00acae, type: 3}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[2].colour.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[2].colour.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[2].prefab
+      value: 
+      objectReference: {fileID: 4705859807070484638, guid: 2962adcf0a2ebdd49bf9bda7cf811f5d,
+        type: 3}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[2].colour.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[2].colour.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2677000133211146937, guid: b6ddabd7c10f01b4c8872dd357570866,
         type: 3}
       propertyPath: m_LocalPosition.x
