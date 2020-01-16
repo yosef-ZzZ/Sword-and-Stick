@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public Patrol EnemyController;
     public Animator animator;                // Get Skeleton animator
+    public Collider2D DeathDisableCollider;
     public int damagetoplayer = 1;
     public int EnemyHealth;
 
@@ -15,9 +16,13 @@ public class Enemy : MonoBehaviour
     private float TimeBtwAttack;
     public float StartTimeBtwAttack;
 
-     void Update()
-    {
+    void Start(){
+        DeathDisableCollider.enabled = true;
+    }
+
+     void Update(){
         if (EnemyHealth <= 0){
+           DeathDisableCollider.enabled = false;
            animator.SetTrigger("Dead");
         }
 
