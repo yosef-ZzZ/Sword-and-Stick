@@ -167,10 +167,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyController: {fileID: 4705859807070484630}
   animator: {fileID: 4705859807070484639}
+  DeathDisableCollider: {fileID: 4705859807070484627}
   damagetoplayer: 50
   EnemyHealth: 100
   startDazedTime: 0.8
-  StartTimeBtwAttack: 0
+  StartTimeBtwAttack: 1
 --- !u!61 &4705859807070484626
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -243,4 +244,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

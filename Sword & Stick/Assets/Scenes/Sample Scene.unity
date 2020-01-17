@@ -13309,16 +13309,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5339712422190819789, guid: 003dd877fa5189441b66c904f525c17a,
-        type: 3}
-      propertyPath: attackRangeX
-      value: 2.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 5339712422190819789, guid: 003dd877fa5189441b66c904f525c17a,
-        type: 3}
-      propertyPath: attackRangeY
-      value: 1.2
-      objectReference: {fileID: 0}
     - target: {fileID: 8146058170858436858, guid: 003dd877fa5189441b66c904f525c17a,
         type: 3}
       propertyPath: m_LocalPosition.x
