@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
         type: 3}
       propertyPath: colourMapping.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
         type: 3}
@@ -163,6 +163,38 @@ PrefabInstance:
       propertyPath: colourMapping.Array.data[2].colour.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[3].colour.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[3].colour.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 1876945236149579966, guid: ebaa796f2ca52ec4bba820ac2eb385dd,
+        type: 3}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[3].colour.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[3].colour.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677000133211146936, guid: b6ddabd7c10f01b4c8872dd357570866,
+        type: 3}
+      propertyPath: colourMapping.Array.data[0].prefab
+      value: 
+      objectReference: {fileID: 4043421844387888424, guid: 95c1e83bd7639394c911dd9c363e68b5,
+        type: 3}
     - target: {fileID: 2677000133211146937, guid: b6ddabd7c10f01b4c8872dd357570866,
         type: 3}
       propertyPath: m_LocalPosition.x
