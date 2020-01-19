@@ -21,11 +21,13 @@ public class Enemy : MonoBehaviour
     }
 
      void Update(){
+        // Plays death animation when the enemy dies
         if (EnemyHealth <= 0){
            DeathDisableCollider.enabled = false;
            animator.SetTrigger("Dead");
         }
 
+        // Makes the character the enemy stop
         if (dazedTime <= 0){
             EnemyController.speed = EnemyController.sendAssignedSpeed();
         } else {

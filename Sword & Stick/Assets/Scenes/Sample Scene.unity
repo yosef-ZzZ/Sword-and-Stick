@@ -7130,6 +7130,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1090118454 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 7918276699143861723, guid: 003dd877fa5189441b66c904f525c17a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2796136866816670204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1132800306
 GameObject:
   m_ObjectHideFlags: 0
@@ -13229,6 +13235,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.032
       objectReference: {fileID: 0}
+    - target: {fileID: 2796136865456359105, guid: 003dd877fa5189441b66c904f525c17a,
+        type: 3}
+      propertyPath: m_CrouchDisableCollider2
+      value: 
+      objectReference: {fileID: 1090118454}
     - target: {fileID: 2796136865456359108, guid: 003dd877fa5189441b66c904f525c17a,
         type: 3}
       propertyPath: m_WasSpriteAssigned
