@@ -37,10 +37,16 @@ public class Boss : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                 animator.SetTrigger("walk");
             }
+            else
+                animator.SetTrigger("stop");
+        else
+            animator.SetTrigger("stop");
+        
 
-        if(Vector2.Distance(transform.position, target.position) <2)
+        if (Vector2.Distance(transform.position, target.position) <5)
         {
             //attack goes here
+
         }
 
 
