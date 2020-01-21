@@ -36,23 +36,22 @@ public class Boss : MonoBehaviour
              {
                 animator.SetInteger("state",1);
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-                
+                if (Vector2.Distance(transform.position, target.position) <= distanceclose)
+                {
+                    //attack goes here
+                    animator.SetInteger("state", 2);
+
+
+                }
+                else
+                    animator.SetInteger("state", 0);
+
             }
             else
                 animator.SetInteger("state",0);
         else
             animator.SetInteger("state",0);
 
-
-        if (Vector2.Distance(transform.position, target.position) ==2)
-        {
-            //attack goes here
-            animator.SetInteger("state", 2);
-
-
-        }
-        else
-            animator.SetInteger("state", 0);
 
         if (EnemyHealth <= 0)
         {
