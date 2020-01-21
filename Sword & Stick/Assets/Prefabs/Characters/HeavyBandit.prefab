@@ -153,7 +153,7 @@ MonoBehaviour:
   DeathDisableCollider: {fileID: 6764849376649961864}
   damagetoplayer: 20
   EnemyHealth: 100
-  startDazedTime: 0.8
+  startDazedTime: 0.5
   StartTimeBtwAttack: 0.5
 --- !u!1 &6764849376979605080
 GameObject:

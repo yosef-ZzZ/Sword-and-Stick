@@ -14644,6 +14644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeavyBandit
       objectReference: {fileID: 0}
+    - target: {fileID: 6764849376649961869, guid: e79657060c0dc2042bddda7e6367cb36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79657060c0dc2042bddda7e6367cb36, type: 3}
 --- !u!1001 &7668058326347950306

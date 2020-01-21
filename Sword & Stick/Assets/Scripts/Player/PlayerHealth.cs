@@ -18,7 +18,11 @@ public class PlayerHealth : MonoBehaviour
 
         // Push player back if bounce back is true
         if (BounceBack) {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            if (transform.localScale.x == -8)
+                transform.Translate(Vector2.right * speed * Time.deltaTime);
+            else {
+                transform.Translate(Vector2.left * speed * Time.deltaTime);
+            }
             StartCoroutine(SetBounceBack());
         }
     }
