@@ -49,6 +49,9 @@ public class Enemy : MonoBehaviour
        } else{
             TimeBtwAttack -= Time.deltaTime;
        }
+
+       damageCollider.GetComponent<PlayerHealth>().BounceBack = true;
+       Debug.Log(damageCollider.GetComponent<PlayerHealth>().BounceBack);
    }
 
    // This function gets called every time the enemy gets hit
