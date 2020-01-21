@@ -135,7 +135,7 @@ MonoBehaviour:
   animator: {fileID: 7668058327617124800}
   speed: 3
   EnemyHealth: 700
-  distanceclose: 2
+  distanceclose: 4
   howfar: 50
   DeathDisableCollider: {fileID: 0}
   damagetoplayer: 1
