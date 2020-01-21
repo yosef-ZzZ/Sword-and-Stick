@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7668058327617124800}
   - component: {fileID: 4543504338042390668}
   - component: {fileID: 1438886310493262157}
+  - component: {fileID: 6349012843289120298}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -314029059331799083, guid: 56aa740b050b2874bbd977f7b0a057cc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.64, y: 0.96}
@@ -133,7 +134,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 7668058327617124800}
   speed: 3
-  EnemyHealth: 0
+  EnemyHealth: 700
   distanceclose: 2
   howfar: 50
   DeathDisableCollider: {fileID: 0}
+  damagetoplayer: 1
+  startDazedTime: 0
+  StartTimeBtwAttack: 0
+--- !u!50 &6349012843289120298
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668058327617124803}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 10000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
