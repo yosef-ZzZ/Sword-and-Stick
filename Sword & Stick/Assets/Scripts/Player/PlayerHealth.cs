@@ -24,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite health2;
     public Sprite health1;
     public Sprite health0;
+    public Animator camAnim;                 // Get camera animator
 
     // Update is called once per frame
     private void Update() {
@@ -61,7 +62,12 @@ public class PlayerHealth : MonoBehaviour
 
         // Push player back if bounce back is true
         if (BounceBack) {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            camAnim.SetTrigger("shake");
+            if (transform.localScale.x == -8)
+                transform.Translate(Vector2.right * speed * Time.deltaTime);
+            else {
+                transform.Translate(Vector2.left * speed * Time.deltaTime);
+            }
             StartCoroutine(SetBounceBack());
         }
     }

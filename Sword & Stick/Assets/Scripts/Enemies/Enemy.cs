@@ -7,8 +7,12 @@ public class Enemy : MonoBehaviour
     public Patrol EnemyController;
     public Animator animator;                // Get Skeleton animator
     public Collider2D DeathDisableCollider;
+    public GameObject effect;
+
+
     public int damagetoplayer = 1;
     public int EnemyHealth;
+    private bool isDying = false;
 
     private float dazedTime;
     public float startDazedTime;
@@ -29,7 +33,10 @@ public class Enemy : MonoBehaviour
 
         // Makes the character the enemy stop
         if (dazedTime <= 0){
-            EnemyController.speed = EnemyController.sendAssignedSpeed();
+            if (!isDying)
+                EnemyController.speed = EnemyController.sendAssignedSpeed();
+            else
+                EnemyController.speed = 0;
         } else {
             EnemyController.speed = 0;
             dazedTime -= Time.deltaTime;
@@ -56,6 +63,7 @@ public class Enemy : MonoBehaviour
 
    // This function gets called every time the enemy gets hit
    public void TakeDamage(int damage){
+       Instantiate(effect, transform.position, Quaternion.identity);
        dazedTime = startDazedTime;
        EnemyHealth -= damage;
        Debug.Log("damage Taken, health " + EnemyHealth);
@@ -63,5 +71,9 @@ public class Enemy : MonoBehaviour
 
    void DestroyEnemy(){
        Destroy(gameObject);
+   }
+
+   void StopEnemy(){
+       isDying = true;
    }
 }

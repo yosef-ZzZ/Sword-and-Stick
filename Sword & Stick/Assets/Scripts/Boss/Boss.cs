@@ -12,11 +12,19 @@ public class Boss : MonoBehaviour
     public int distanceclose;       //how close the boss can get to the player before it stops moving
     public int howfar;                  //how far the boss is away from the player before it starts moving
     public Collider2D DeathDisableCollider;
+    public int damagetoplayer = 1;
+
+    private float dazedTime;
+    public float startDazedTime;
+
+    private float TimeBtwAttack;
+    public float StartTimeBtwAttack;
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        DeathDisableCollider.enabled = true;
     }
 
     // Update is called once per frame
@@ -26,8 +34,40 @@ public class Boss : MonoBehaviour
         if(Vector2.Distance(transform.position, target.position)<howfar)
             if (Vector2.Distance(transform.position, target.position)>distanceclose)
              {
+                animator.SetInteger("state",1);
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-                animator.SetTrigger("walk");
+                if (Vector2.Distance(transform.position, target.position) <= distanceclose)
+                {
+                    //attack goes here
+                    animator.SetInteger("state", 2);
+
+
+                }
+                else
+                    animator.SetInteger("state", 0);
+
             }
+            else
+                animator.SetInteger("state",0);
+        else
+            animator.SetInteger("state",0);
+
+
+        if (EnemyHealth <= 0)
+        {
+            DeathDisableCollider.enabled = false;
+            animator.SetTrigger("Dead");
+        }
+
+
+       
+    }
+
+    // This function gets called every time the enemy gets hit
+    public void TakeDamage(int damage)
+    {
+        dazedTime = startDazedTime;
+        EnemyHealth -= damage;
+        Debug.Log("damage Taken, health " + EnemyHealth);
     }
 }
