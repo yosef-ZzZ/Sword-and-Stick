@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  distance: 1
+  distance: 0.2
   groundDetection: {fileID: 4705859806421286420}
   animator: {fileID: 4705859807070484639}
 --- !u!114 &4705859807070484625
