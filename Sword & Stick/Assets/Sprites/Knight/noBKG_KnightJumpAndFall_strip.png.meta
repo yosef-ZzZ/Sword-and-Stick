@@ -187,13 +187,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a69ca89e8eb8347a24352c165c3050
+      spriteID: abe9edc5f74f74d41b46ee81e4f16e08
       internalID: 2165001038142686867
       vertices: []
       indices: 
@@ -203,18 +203,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_2
       rect:
         serializedVersion: 2
-        x: 179
+        x: 178
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1627359fbc46a6544af1ac68e0b51835
+      spriteID: 371ed9863bc743043bec5d1541cc2119
       internalID: -1275732480562838495
       vertices: []
       indices: 
@@ -224,18 +224,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_3
       rect:
         serializedVersion: 2
-        x: 323
+        x: 322
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c521a9ba0d286a842b9acb203779734e
+      spriteID: 98a965f802515394e926a920b666d809
       internalID: -6974088986635383677
       vertices: []
       indices: 
@@ -250,13 +250,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd8327a07fd4424d930240c65d720bd
+      spriteID: a07d4fdd9e5e4cd4ea6b5d63c2c96203
       internalID: 7819318548096920562
       vertices: []
       indices: 
@@ -266,18 +266,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_6
       rect:
         serializedVersion: 2
-        x: 621
+        x: 622
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8436b62ecb9c7184cb5bd427a579907d
+      spriteID: 980f82becbb32d248a4af8be16e30f1f
       internalID: 2511048077603649539
       vertices: []
       indices: 
@@ -287,18 +287,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_7
       rect:
         serializedVersion: 2
-        x: 773
+        x: 775
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c61eea0d2577dbc4d931e2d44a8cc06b
+      spriteID: 966d2f8b783f2a9489e5e07215b52c60
       internalID: 513507753970481495
       vertices: []
       indices: 
@@ -308,18 +308,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_8
       rect:
         serializedVersion: 2
-        x: 927
+        x: 928
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cd273d22ca650c4297772472a58bf53
+      spriteID: cce1cd4ef140a7e4a98efccb068178d9
       internalID: 8278566502845999923
       vertices: []
       indices: 
@@ -329,18 +329,18 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_10
       rect:
         serializedVersion: 2
-        x: 1083
+        x: 1085
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d43fd6fc8e0b54da36fbce9bba9599
+      spriteID: 4bfcfa1dd4c82134aa6c60f8eeb31c62
       internalID: 6344160088250257502
       vertices: []
       indices: 
@@ -350,25 +350,25 @@ TextureImporter:
       name: noBKG_KnightJumpAndFall_strip_11
       rect:
         serializedVersion: 2
-        x: 1237
+        x: 1238
         y: 0
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a8b7595efe478647870f18b6bf63ddd
+      spriteID: 703827c2c60916e4b9d7836b46507130
       internalID: 1235375693083715329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: noBKG_KnightJumpAndFall_strip_13
+      name: noBKG_KnightJumpAndFall_strip_12
       rect:
         serializedVersion: 2
         x: 1386
@@ -376,14 +376,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae50bb5093d90f42b72e45653c8456f
-      internalID: 3917879321971269832
+      spriteID: 24b3fb02e204a5c43a83caab42f3db93
+      internalID: 2282646019303360540
       vertices: []
       indices: 
       edges: []
@@ -397,13 +397,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae6b54b00974d934ebcdf0adb9cbc1eb
+      spriteID: a1aac8963af46ae4380741612fe57464
       internalID: -5188971698814021395
       vertices: []
       indices: 
@@ -418,13 +418,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edbaf6a242c110c428a81dff7b9564cf
+      spriteID: f5e534f550cee6c4f929ef32f2127749
       internalID: 7742087010151812843
       vertices: []
       indices: 
@@ -439,13 +439,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ec36f92993acb49b8526d837ed15c1
+      spriteID: 67d2e294b87fb624d88e14985bf49b41
       internalID: -4556865190164124334
       vertices: []
       indices: 
@@ -460,13 +460,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf800f41c9e9e2d45ae0dce36504727d
+      spriteID: 477b42c7c0ecc8e49999598b6598b734
       internalID: 6424695090527197003
       vertices: []
       indices: 

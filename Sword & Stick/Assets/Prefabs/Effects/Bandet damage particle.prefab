@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8430869075106511106}
   - component: {fileID: 8430869075106511107}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Bandet damage particle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8430869075106511104}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.63, y: 2.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &8430869075106511106
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -42,7 +42,7 @@ ParticleSystem:
   serializedVersion: 6
   lengthInSec: 1
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 2
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
@@ -222,7 +222,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 0.27058825, g: 0.34117648, b: 0.42352945, a: 1}
-      maxColor: {r: 0.87843144, g: 0.8941177, b: 0.8000001, a: 1}
+      maxColor: {r: 0.7075472, g: 0.0070023886, b: 0, a: 0.7411765}
       maxGradient:
         serializedVersion: 2
         key0: {r: 0.50980395, g: 0.33333334, b: 0.227451, a: 1}

@@ -192,6 +192,7 @@ MonoBehaviour:
   EnemyController: {fileID: 4705859807070484630}
   animator: {fileID: 4705859807070484639}
   DeathDisableCollider: {fileID: 4705859807070484627}
+  effect: {fileID: 1883315292717239954, guid: 3e922c1940325034fa9e24a3781b5404, type: 3}
   damagetoplayer: 20
   EnemyHealth: 100
   startDazedTime: 0.8
