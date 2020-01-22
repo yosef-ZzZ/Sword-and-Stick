@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public float forhowlong = 0.5f;
     public bool BounceBack = false;
 
+    public Animator camAnim;                 // Get camera animator
+
     // Update is called once per frame
     private void Update() {
         if (health <= 0) {
@@ -18,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
 
         // Push player back if bounce back is true
         if (BounceBack) {
+            camAnim.SetTrigger("shake");
             if (transform.localScale.x == -8)
                 transform.Translate(Vector2.right * speed * Time.deltaTime);
             else {
