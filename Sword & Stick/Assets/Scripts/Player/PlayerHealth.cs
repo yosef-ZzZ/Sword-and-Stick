@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 5;
-    private int maxhealth = 10;
+    private int maxhealth = 100;
     public float speed = 3;
     public float forhowlong = 0.5f;
     public bool BounceBack = false;
@@ -29,28 +29,28 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     private void Update() {
 
-        for (int i = 0; i < maxhealth; i++)
+        for (int i = 0; i <= maxhealth; i++)
             if (i == health)
             {
-                if (health == 10)
+                if (health == 100)
                     HealthValue.sprite = health10;
-                if (health == 9)
+                if (health == 90)
                     HealthValue.sprite = health9;
-                if (health == 8)
+                if (health == 80)
                     HealthValue.sprite = health8;
-                if (health == 7)
+                if (health == 70)
                     HealthValue.sprite = health7;
-                if (health == 6)
+                if (health == 60)
                     HealthValue.sprite = health6;
-                if (health == 5)
+                if (health == 50)
                     HealthValue.sprite = health5;
-                if (health == 4)
+                if (health == 40)
                     HealthValue.sprite = health4;
-                if (health == 3)
+                if (health == 30)
                     HealthValue.sprite = health3;
-                if (health == 2)
+                if (health == 20)
                     HealthValue.sprite = health2;
-                if (health == 1)
+                if (health == 10)
                     HealthValue.sprite = health1;
                 if (health == 0)
                     HealthValue.sprite = health0;
