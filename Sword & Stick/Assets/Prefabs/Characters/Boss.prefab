@@ -136,7 +136,7 @@ MonoBehaviour:
   speed: 3
   EnemyHealth: 700
   distanceclose: 4
-  howfar: 50
+  howfar: 25
   DeathDisableCollider: {fileID: 0}
   damagetoplayer: 1
   startDazedTime: 0

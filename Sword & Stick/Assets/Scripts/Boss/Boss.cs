@@ -19,6 +19,7 @@ public class Boss : MonoBehaviour
 
     private float TimeBtwAttack;
     public float StartTimeBtwAttack;
+    bool movingLeft = true;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +59,22 @@ public class Boss : MonoBehaviour
             DeathDisableCollider.enabled = false;
             animator.SetTrigger("Dead");
         }
+
+       /* RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
+        if (groundInfo.collider == false)
+        {
+            if (movingLeft == true)
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                movingLeft = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 180, 0);
+                movingLeft = true;
+            }//else
+        }//if
+        */
 
 
        
