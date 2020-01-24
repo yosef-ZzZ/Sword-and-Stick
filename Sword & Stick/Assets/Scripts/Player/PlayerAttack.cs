@@ -26,7 +26,10 @@ public class PlayerAttack : MonoBehaviour
                 playerAnim.SetBool("StopAttack", true);
                 Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++) {
-                    enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                    if (enemiesToDamage[i].CompareTag("Enemy"))
+                        enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+                    else
+                        enemiesToDamage[i].GetComponent<SecondBoss>().TakeDamage(damage);
                 }
                 timeBtwAttack = startTimeBtwAttack;
             }
