@@ -26,6 +26,12 @@ public class PlayerHealth : MonoBehaviour
     public Sprite health0;
     public Animator camAnim;                 // Get camera animator
 
+    void Start()
+    {
+        //Set Screen Resolution
+        Screen.SetResolution(1366, 768, false);
+    }
+
     // Update is called once per frame
     private void Update() {
 
