@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollowing : MonoBehaviour
+public class BackgroundFollow : MonoBehaviour
 {
     public GameObject player;    // A refrence to the player game object
 
