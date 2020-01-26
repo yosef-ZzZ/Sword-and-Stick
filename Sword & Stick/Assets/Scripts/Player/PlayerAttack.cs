@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
                     if (enemiesToDamage[i].CompareTag("Enemy"))
                         enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                     else
-                        enemiesToDamage[i].GetComponent<SecondBoss>().TakeDamage(damage);
+                        enemiesToDamage[i].GetComponent<SecondBossHealth>().TakeDamage(damage);
                 }
                 timeBtwAttack = startTimeBtwAttack;
             }

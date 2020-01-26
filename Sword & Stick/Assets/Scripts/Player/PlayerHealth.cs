@@ -83,5 +83,10 @@ public class PlayerHealth : MonoBehaviour
        yield return new WaitForSeconds(forhowlong);
        BounceBack = false;
     }
+
+    public void TakeDamage(int damage){
+        health -= damage;
+        BounceBack = true;
+    }
     
 }

@@ -48,10 +48,10 @@ public class Enemy : MonoBehaviour
        if (TimeBtwAttack <= 0){
             // This checks if the collider touched a player
             if (damageCollider.CompareTag("Player")) {
-            // Player takes damage
-            damageCollider.GetComponent<PlayerHealth>().health -= damagetoplayer;
+                // Player takes damage
+                damageCollider.GetComponent<PlayerHealth>().health -= damagetoplayer;
 
-            Debug.Log(damageCollider.GetComponent<PlayerHealth>().health);
+                Debug.Log(damageCollider.GetComponent<PlayerHealth>().health);
             }
        } else{
             TimeBtwAttack -= Time.deltaTime;
