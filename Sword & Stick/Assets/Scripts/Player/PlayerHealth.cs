@@ -11,7 +11,8 @@ public class PlayerHealth : MonoBehaviour
     public float speed = 3;
     public float forhowlong = 0.5f;
     public bool BounceBack = false;
-
+    private GameObject player;
+    public GameObject Death;
     public Image HealthValue;
     public Sprite health10;
     public Sprite health9;
@@ -29,7 +30,8 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         //Set Screen Resolution
-        Screen.SetResolution(1366, 768, false);
+        Screen.SetResolution(1366, 768, true);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -63,7 +65,9 @@ public class PlayerHealth : MonoBehaviour
             }//IF
 
         if (health <= 0) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Death.SetActive(true);
+            player.GetComponent<CharacterController2D>().enabled = false;
+            Invoke("Die", 4f);
         }
 
         // Push player back if bounce back is true
@@ -89,4 +93,11 @@ public class PlayerHealth : MonoBehaviour
         BounceBack = true;
     }
     
+    void Die()
+    {
+        Death.SetActive(false);
+        player.GetComponent<CharacterController2D>().enabled = true;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }
