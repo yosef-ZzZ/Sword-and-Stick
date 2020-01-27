@@ -4,20 +4,14 @@ using UnityEngine;
 
 public class SpawnBoss : MonoBehaviour
 {
-    public Transform spawnPoint;
     public GameObject Boss;
- 
+    private bool bossAlreadySpawned = false;
 
-void Start()
-{
-    
-
-void OnTriggerEnter2D(Collider2D other)
-{
-Debug.Log("Spawn Boss");
-Instantiate(Boss, spawnPoint.position, spawnPoint.rotation);
-}
-}
-
-
+    void OnTriggerEnter2D(Collider2D other){
+        if (!bossAlreadySpawned){
+            Debug.Log("Spawn Boss");
+            Instantiate(Boss, transform.position, Quaternion.identity);
+            bossAlreadySpawned = true;
+        }
+    }
 }

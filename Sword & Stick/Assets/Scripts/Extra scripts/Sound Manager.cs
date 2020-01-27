@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip playerAttackSound, playerDamageSound, skeletonDamageSound;
+    public static AudioClip playerAttackSound, playerDamageSound;
     static AudioSource audioScr;
 
     // Start is called before the first frame update
@@ -12,7 +12,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         playerAttackSound = Resources.Load<AudioClip> ("SwordSlash");
         playerDamageSound = Resources.Load<AudioClip> ("PlayerDamage");
-        skeletonDamageSound = Resources.Load<AudioClip> ("SkeletonDamage");
 
         audioScr = GetComponent<AudioSource>();
     }
