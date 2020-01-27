@@ -9,9 +9,16 @@ public class SecondBossHealth : MonoBehaviour
     public GameObject effect;
     public Slider healthBar;
     public Animator animator;   // Get Boss animator
-public Transform spawnPoint;
-    public GameObject Door;
+    private GameObject spawnPoint;
+    private GameObject doorpre;
     
+    
+    private void Start() {
+        spawnPoint = GameObject.FindGameObjectWithTag("DoorSpawn");
+        var Door = (GameObject)Resources.Load("Prefabs/Items/Door", typeof(GameObject));
+        doorpre = Door;
+    }
+
     private void Update() {
         if (BossHealth <= 0){
             animator.SetTrigger("Dead");
@@ -27,7 +34,7 @@ public Transform spawnPoint;
    }
 
    void DestroyEnemy(){
-        Instantiate(Door, spawnPoint.position, spawnPoint.rotation);
+       Instantiate(doorpre, spawnPoint.transform.position, Quaternion.identity);
        Destroy(gameObject);
    }
 }

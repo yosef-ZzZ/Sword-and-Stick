@@ -10,8 +10,8 @@ public class SlimeBoss : MonoBehaviour {
     public Collider2D DeathDisableCollider;
     public GameObject effect;
     public Transform player;
-    public Transform spawnPoint;
-    public GameObject Door;
+    private GameObject spawnPoint;
+    private GameObject doorpre;
     public float jumpTowards = 1;
     public int damagetoplayer = 1;
     private bool isDying = false;
@@ -26,6 +26,10 @@ public class SlimeBoss : MonoBehaviour {
     {
         DeathDisableCollider.enabled = true;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
+        spawnPoint = GameObject.FindGameObjectWithTag("DoorSpawn");
+        var Door = (GameObject)Resources.Load("Prefabs/Items/Door", typeof(GameObject));
+        doorpre = Door;
     }
 
     private void Update()
@@ -95,7 +99,7 @@ public class SlimeBoss : MonoBehaviour {
 
     void Death()
     {
-        Instantiate(Door, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(doorpre, spawnPoint.transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
