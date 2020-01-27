@@ -11,8 +11,6 @@ public class CameraBounds : MonoBehaviour
 
     public float minX;
     public float maxX;
-     public float minY;
-    public float maxY;
 
     void Awake() {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -27,14 +25,23 @@ public class CameraBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (border){
-            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), Mathf.Clamp(transform.position.y, minY, maxY), transform.position.z);
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), transform.position.y, transform.position.z);
         }
+        */
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        if (transform.position.x > maxX && transform.position.x < minX){
+            if (border){
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minX, maxX), transform.position.y, transform.position.z);
+            }
+        } else {
+            // Follow player
+            transform.position = player.transform.position + offset;
+        }
     }
 }
