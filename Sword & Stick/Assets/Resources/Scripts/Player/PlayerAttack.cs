@@ -26,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
                 playerAnim.SetTrigger("attack");
                 playerAnim.SetBool("StopAttack", true);
                 // Play sword sound
-                SoundManagerScript.PlaySound("SwordSlash");
+                SoundManagerS.PlaySound("SwordSlash");
 
                 Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++) {

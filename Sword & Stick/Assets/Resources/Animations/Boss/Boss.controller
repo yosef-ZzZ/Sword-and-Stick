@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceclose: 2
-  startTimeBtwAttack: 2.5
+  startTimeBtwAttack: 2
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 256
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceclose: 2
-  startTimeBtwAttack: 2
+  startTimeBtwAttack: 1.5
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 256

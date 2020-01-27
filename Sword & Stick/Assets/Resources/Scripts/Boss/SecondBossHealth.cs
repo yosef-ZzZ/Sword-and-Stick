@@ -29,6 +29,7 @@ public class SecondBossHealth : MonoBehaviour
     // This function gets called every time the enemy gets hit
    public void TakeDamage(int damage){
        Instantiate(effect, transform.position, Quaternion.identity);
+       SoundManagerS.PlaySound("EnemyDamage");
        BossHealth -= damage;
        Debug.Log("damage Taken, health " + BossHealth);
    }
