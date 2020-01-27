@@ -60,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
                     HealthValue.sprite = health2;
                 if (health == 10)
                     HealthValue.sprite = health1;
-                if (health == 0)
+                if (health <= 0)
                     HealthValue.sprite = health0;
             }//IF
 
