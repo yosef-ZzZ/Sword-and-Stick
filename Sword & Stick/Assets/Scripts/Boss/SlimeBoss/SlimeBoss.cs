@@ -10,6 +10,8 @@ public class SlimeBoss : MonoBehaviour {
     public Collider2D DeathDisableCollider;
     public GameObject effect;
     public Transform player;
+    public Transform spawnPoint;
+    public GameObject Door;
     public float jumpTowards = 1;
     public int damagetoplayer = 1;
     private bool isDying = false;
@@ -93,6 +95,7 @@ public class SlimeBoss : MonoBehaviour {
 
     void Death()
     {
+        Instantiate(Door, spawnPoint.position, spawnPoint.rotation);
         Destroy(gameObject);
     }
 }
