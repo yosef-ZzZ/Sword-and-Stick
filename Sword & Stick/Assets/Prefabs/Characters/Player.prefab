@@ -596,7 +596,6 @@ MonoBehaviour:
   speed: 20
   forhowlong: 0.08
   BounceBack: 0
-  player: {fileID: 2796136865456359114}
   Death: {fileID: 989844187704056987}
   HealthValue: {fileID: 8878504264845933924}
   health10: {fileID: -8852995704630408839, guid: 07995bfd1bc27734e945de3422fd7f33,
