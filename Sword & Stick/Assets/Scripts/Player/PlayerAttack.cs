@@ -21,9 +21,13 @@ public class PlayerAttack : MonoBehaviour
         if (timeBtwAttack <= 0){
             // Attack is allowed
             if (Input.GetButtonDown("Attack")){
+                // Activate animation
                 playerAnim.SetBool("StopAttack", false);
                 playerAnim.SetTrigger("attack");
                 playerAnim.SetBool("StopAttack", true);
+                // Play sword sound
+                SoundManagerScript.PlaySound("SwordSlash");
+
                 Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++) {
                     if (enemiesToDamage[i].CompareTag("Enemy"))
