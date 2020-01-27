@@ -89,6 +89,8 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public void TakeDamage(int damage){
+        // Play damage sound
+        SoundManagerScript.PlaySound("PlayerDamage");
         health -= damage;
         BounceBack = true;
     }

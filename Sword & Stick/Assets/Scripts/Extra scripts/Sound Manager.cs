@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip playerAttackSound, playerDamageSound;
+    public static AudioClip playerAttackSound, playerDamageSound, skeletonDamageSound;
     static AudioSource audioScr;
 
     // Start is called before the first frame update
     void Start()
     {
         playerAttackSound = Resources.Load<AudioClip> ("SwordSlash");
+        playerDamageSound = Resources.Load<AudioClip> ("PlayerDamage");
+        skeletonDamageSound = Resources.Load<AudioClip> ("SkeletonDamage");
 
         audioScr = GetComponent<AudioSource>();
     }
@@ -25,6 +27,9 @@ public class SoundManagerScript : MonoBehaviour
         switch (clip) {
             case "SwordSlash":
                 audioScr.PlayOneShot (playerAttackSound);
+                break;
+            case "PlayerDamage":
+                audioScr.PlayOneShot (playerDamageSound);
                 break;
         }
     }
