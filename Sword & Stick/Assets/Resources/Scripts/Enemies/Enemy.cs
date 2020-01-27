@@ -49,6 +49,7 @@ public class Enemy : MonoBehaviour
             // This checks if the collider touched a player
             if (damageCollider.CompareTag("Player")) {
                 // Player takes damage
+                SoundManagerS.PlaySound("PlayerDamage");
                 damageCollider.GetComponent<PlayerHealth>().health -= damagetoplayer;
 
                 Debug.Log(damageCollider.GetComponent<PlayerHealth>().health);
