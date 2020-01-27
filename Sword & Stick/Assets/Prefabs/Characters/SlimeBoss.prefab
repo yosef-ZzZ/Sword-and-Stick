@@ -256,7 +256,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.21590233}
+  m_Offset: {x: 0, y: 0.079524994}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -267,7 +267,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.8959017, y: 5.5518045}
+  m_Size: {x: 7.8959017, y: 5.824559}
   m_EdgeRadius: 0
 --- !u!114 &1437788108895237891
 MonoBehaviour:
@@ -286,6 +286,8 @@ MonoBehaviour:
   DeathDisableCollider: {fileID: 1437788108895237894}
   effect: {fileID: 0}
   player: {fileID: 2796136865456359109, guid: 003dd877fa5189441b66c904f525c17a, type: 3}
+  spawnPoint: {fileID: 0}
+  Door: {fileID: 0}
   jumpTowards: 5
   damagetoplayer: 20
   startDazedTime: 0
@@ -325,6 +327,8 @@ MonoBehaviour:
   effect: {fileID: 1203579458115976503, guid: 11c3daaa005df174c8215ce47027d56d, type: 3}
   healthBar: {fileID: 2125991624924972929}
   animator: {fileID: 1437788108895237892}
+  spawnPoint: {fileID: 0}
+  Door: {fileID: 0}
 --- !u!1 &1720518127606595225
 GameObject:
   m_ObjectHideFlags: 0
